@@ -1,0 +1,26 @@
+{
+  "name": "file-organizer",
+  "version": "1.0.0",
+  "description": "CLI tool for directory scanning, SHA-256 duplicate detection, categorized file organization, and age-based cleanup",
+  "type": "module",
+  "main": "file-organizer.js",
+  "bin": {
+    "file-organizer": "./file-organizer.js"
+  },
+  "scripts": {
+    "scan": "node file-organizer.js scan",
+    "duplicates": "node file-organizer.js duplicates",
+    "organize": "node file-organizer.js organize",
+    "cleanup": "node file-organizer.js cleanup"
+  },
+  "keywords": [
+    "cli",
+    "file-organizer",
+    "nodejs",
+    "streams",
+    "eventemitter",
+    "sha256"
+  ],
+  "author": "Alexei Caceres",
+  "license": "MIT"
+}
