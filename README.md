@@ -44,8 +44,8 @@ file-organizer/
 ### Setup
 1. Clone the repository and navigate into the project directory:
    ```bash
-   git clone https://github.com/Alexei7ca/goit-nodejs-hw-1.git
-   cd goit-nodejs-hw-1
+   git clone https://github.com/Alexei7ca/file-organizer.git
+   cd file-organizer
    ```
 2. View available commands and help:
    ```bash
